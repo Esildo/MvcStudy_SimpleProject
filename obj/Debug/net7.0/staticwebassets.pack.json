@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Nickv\\source\\repos\\Razor\\wwwroot\\css\\bundle.css",
+      "PackagePath": "staticwebassets\\css\\bundle.css"
+    },
+    {
+      "Id": "C:\\Users\\Nickv\\source\\repos\\Razor\\wwwroot\\css\\bundle.min.css",
+      "PackagePath": "staticwebassets\\css\\bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nickv\\source\\repos\\Razor\\wwwroot\\css\\first.css",
+      "PackagePath": "staticwebassets\\css\\first.css"
+    },
+    {
+      "Id": "C:\\Users\\Nickv\\source\\repos\\Razor\\wwwroot\\css\\secound.css",
+      "PackagePath": "staticwebassets\\css\\secound.css"
+    },
+    {
+      "Id": "C:\\Users\\Nickv\\source\\repos\\Razor\\wwwroot\\js\\bundle.js",
+      "PackagePath": "staticwebassets\\js\\bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Nickv\\source\\repos\\Razor\\wwwroot\\js\\bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nickv\\source\\repos\\Razor\\wwwroot\\js\\fourth.js",
+      "PackagePath": "staticwebassets\\js\\fourth.js"
+    },
+    {
+      "Id": "C:\\Users\\Nickv\\source\\repos\\Razor\\wwwroot\\js\\third.js",
+      "PackagePath": "staticwebassets\\js\\third.js"
+    },
+    {
+      "Id": "C:\\Users\\Nickv\\source\\repos\\Razor\\wwwroot\\lib\\package-lock.json",
+      "PackagePath": "staticwebassets\\lib\\package-lock.json"
+    },
+    {
+      "Id": "C:\\Users\\Nickv\\source\\repos\\Razor\\wwwroot\\lib\\package.json",
+      "PackagePath": "staticwebassets\\lib\\package.json"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Razor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Razor.props",
+      "PackagePath": "build\\Razor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Razor.props",
+      "PackagePath": "buildMultiTargeting\\Razor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Razor.props",
+      "PackagePath": "buildTransitive\\Razor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
