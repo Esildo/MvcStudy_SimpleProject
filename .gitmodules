@@ -1,0 +1,3 @@
+[submodule "RazorTests"]
+	path = RazorTests
+	url = https://github.com/Esildo/RazorTests
