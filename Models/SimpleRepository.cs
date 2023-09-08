@@ -2,14 +2,16 @@
 
 namespace Razor.Models
 {
-    public class SimpleRepository
+    public class SimpleRepository : IRepository
     {
         private static SimpleRepository sharedRepository 
             = new SimpleRepository();
+       
         private Dictionary<string, Product> products 
             = new Dictionary<string,Product>();
 
         public static SimpleRepository SharedRepository => sharedRepository;
+         
         public SimpleRepository() 
         {
             var initialItems = new[]
@@ -25,7 +27,9 @@ namespace Razor.Models
             }
             products.Add("Error", null);
         }
+        
         public IEnumerable<Product> Products => products.Values;
-        public void AddProduct(Product p) => products.Add(p.Name, p);
+        
+        public void AddProduct(Product p) => products.Add(p?.Name, p);
     }
 }
